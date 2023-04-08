@@ -7,7 +7,6 @@ def massive_bezpovtorov():
         lst_m.append(int(input("введите элемент {0} первого множества : ".format(i))))
     for i in range(n):
         lst_n.append(int(input("введите элемент {0} второго множества : ".format(i))))
-
     lst_m_1 = list(set(lst_m))
     lst_n_1 = list(set(lst_n))
     lst_m_1.sort()
