@@ -13,8 +13,5 @@ def avtosadovnik():
         if max_yagod<curr_yagod:
             max_yagod = curr_yagod
             pos = i
-
-
     print("максимальное количество ягод {0} на {1}(i) кусте".format(max_yagod,pos))
-
 avtosadovnik()
